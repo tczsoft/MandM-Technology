@@ -1,0 +1,292 @@
+
+@media only screen and (max-width:800px){
+    .mobile{
+        display: none;
+    }
+    .first button {
+        display:block !important;
+    }
+    .findjobs ul li button{
+        margin-top: 5px !important;
+        margin-left: -8px !important;
+    }
+
+
+}
+.first button {
+    display: none;
+}
+.first button a{
+    text-decoration: none;
+    color: var(--white);
+}
+.title-card h2{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.findjobs ul li button{
+    font-size: 13px !important;
+
+    margin-top: 20px;
+
+}
+
+.findjobs .first h2 a{
+    font-size: 1.125rem;
+    color: var(--findjobs);
+    text-decoration: none;
+    line-height: -5px;
+}
+
+
+.findjobs .first h2 a:hover{
+    text-decoration: underline;
+}
+.findjobs .first .subhead{
+    font-size: 1.125rem;
+}
+.findjobs .first .content{
+    font-size: 15px;
+}
+.findjobs .first .amount div{
+    background-color: var(--findjobscolor);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.findjobs .first .secure{
+    font-size: 14px;
+}
+.findjobs .first ul li{
+    font-size: 14px;
+}
+
+.first, .second, .third, .rightside{
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ebf0f6;;
+    box-sizing: border-box;
+    box-shadow: 0 1px 2px 0 rgba(0,106,194,.2);
+}
+
+.first:hover, .second:hover, .third:hover, .rightside:hover{
+  box-shadow: 0 4px 12px rgba(3, 103, 185, 0.226);
+}
+
+
+.sticky{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    box-shadow: 0 4px 6px -6px #222;
+    padding: 10px;
+}
+.rightside .sticky h3{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.rightside .sticky .subhead{
+    font-size: 1.125rem;
+}
+.rightside .sticky .content{
+    font-size: 15px;
+}
+.rightside .sticky .amount{
+    font-size: 14px;
+    font-weight: 700;
+}
+.benefits .phone div{
+    background-color:var(--fontcolor) ;
+    color: var(--white);
+}
+
+.col-md-6{
+    position: sticky;
+    top:140px;
+
+}
+
+.col-md-6 .para{
+    height: 500px;
+    overflow: auto;
+}
+
+.col-md-6 .para .job {
+    padding: 10px;
+}
+
+.col-md-6 .para .job h2{
+    font-size: 1.125rem !important;
+}
+
+.col-md-6 .para .job h5{
+    font-size: 15px;
+font-weight: 600;
+}
+
+.col-md-6 .para .job p{
+    font-size: 13px;
+}
+
+.col-md-6 .para .benefits div{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+@media(min-width:997px){
+    .search-sec{
+        padding-left:1rem !important;
+        margin-top: 0px !important;
+        width: 96% !important;
+        align-items: center;
+        background-color: #fff;
+    }
+
+    .search-box{
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      border: 1.26923px solid #eaf1f5;
+      box-sizing: border-box;
+      box-shadow: 0 4px 12px rgba(86,141,187,.12);
+      border-radius: 100px;
+      width: 100%;
+    }
+}
+
+.search-sec{
+
+  margin-top: 40px;
+}
+
+.search-slt{
+  display: block;
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #55595c;
+  background-color: #fff;
+  background-image: none;
+  border: none;
+  height: calc(3rem + 2px) !important;
+  border-radius:0;
+}
+.wrn-btn{
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+   height: calc(3rem + 2px) !important;
+   border-radius:0;
+}
+.search-sec .search{
+    padding: 11px 28px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 26px;
+    box-shadow: 0 5.07692px 12.6923px rgb(69 126 255 / 10%);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+
+hr{
+  color: #cfdae2;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.row > * {
+  padding-right: calc(var(--bs-gutter-x) * 0);
+  padding-left: calc(var(--bs-gutter-x) * .6);
+
+}
+
+p{
+  font-size: var(--content-size) !important;
+  color: var(--content-color) !important;
+  font-weight: var(--content-weight) !important;
+}
+
+.first p{
+  line-height: 5px;
+}
+
+ol li{
+  font-size: var(--content-size) !important;
+  color: var(--content-color) !important;
+  font-weight: var(--content-weight) !important;
+}
+
+h2{
+  font-size: var(--subtitle-size);
+  color: var(--subtitle-color);
+  font-weight: var(--subtitle-weight) !important;
+}
+
+.card{
+  cursor: pointer;
+  text-align: center;
+  height: 142px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  background: #ffffff;
+  border: 1px solid #eaf1f5;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 77, 255, 0.04);
+  box-shadow: 0px 4px 10px rgba(0, 77, 255, 0.04);
+  border-radius: 16px 6px;
+  max-width: 250px;
+}
+
+.card:hover{
+  box-shadow: 0 4px 12px rgba(3, 103, 185, 0.226);
+}
+
+.card i{
+  width: 52px;
+height: 52px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 8px;
+}
+
+.owl-theme .owl-nav {
+  border: 1px solid #eaf1f5;
+  -webkit-box-shadow: 0px 2px 16px -2px #e9ebff;
+  box-shadow: 0px 2px 16px -2px #e9ebff;
+  background-image: url(//static.naukimg.com/s/7/0/assets/images/src/common/components/assets/arrow.77068bf0.png);
+  padding: 25px;
+  top: 144px;
+  border-radius: 100%;
+  background-size: 9px 14px !important;
+  background-color: #ffffff;
+  }
+
+  p{
+
+    line-height:25px !important;
+  }
+
+
+  h2{
+
+    line-height: 25px !important;
+  }
+  .fixed-top1{
+    position: fixed;
+box-shadow: none;
+  height: 35px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 35px;
+  width: 100.8%;
+  top: 12%;
+  color: white;
+  z-index: 9;
+
+  }

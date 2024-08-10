@@ -1,0 +1,101 @@
+<section class="title-card" id="title"
+  style="background-image:url('../assets/image/career.jpg'); background-size: cover;">
+  <div class="container">
+    <h2 class="text-center text-white" style="color:white !important">Career</h2>
+  </div>
+</section>
+
+
+<section class="">
+  <div class="container">
+
+    <div class="col-lg-10 well mx-auto">
+      <div class="row">
+        <div class="alert alert-success alert-dismissible fade" role="alert" id="alert-m">
+          <strong>Your Data Successfully Submitted</strong>
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" id="btn-close"></button>
+        </div>
+        <form id="form" lass="needs-validation" ngNativeValidate>
+
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-sm-12 col-md-8 mt-5">
+
+              <div class="row">
+                <div class="col-sm-6 form-group mt-4">
+                  <input type="text" name="Firstname" placeholder="Enter First Name Here.." class="form-control"
+                    style="padding: 13px;" required>
+
+                </div>
+
+                <div class="col-sm-6 form-group mt-4">
+                  <input type="text" name="Lastname" placeholder="Enter Last Name Here.." class="form-control"
+                    style="padding: 13px;" required>
+
+                </div>
+              </div>
+
+              <div class="form-group mt-4">
+                <textarea name="Address" placeholder="Enter Address Here.." rows="3" class="form-control"
+                  style="padding: 13px;" required></textarea>
+
+              </div>
+
+              <div class="row">
+                <div class="col-sm-4 form-group mt-4">
+                  <input type="text" name="City" placeholder="Enter City Name Here.." class="form-control"
+                    style="padding: 13px;" required>
+
+                </div>
+
+                <div class="col-sm-4 form-group mt-4">
+                  <input type="text" name="State" placeholder="Enter State Name Here.." class="form-control"
+                    style="padding: 13px;" required>
+
+                </div>
+
+                <div class="col-sm-4 form-group mt-4">
+                  <input type="text" name="Zipcode" type="text" pattern="[0-9]*" placeholder="Enter Zip Code Here.."
+                    class="form-control" style="padding: 13px;" required>
+
+                </div>
+              </div>
+
+
+              <div class="form-group mt-4">
+                <input type="tel" name="Phone" placeholder="123-45-678" pattern="[0-9]{10}"
+                  placeholder="Enter Phone Number Here.." class="form-control" style="padding: 13px;" required>
+
+              </div>
+
+              <div class="form-group mt-4">
+                <input type="email" name="Email" placeholder="Enter Email Address Here.." class="form-control"
+                  style="padding: 13px;" required>
+
+              </div>
+              <div class="form-group mt-4">
+                <input type="text" name="Jobapply" placeholder="Job apply for" class="form-control"
+                  style="padding: 13px;" required>
+
+              </div>
+              <div class="form-group mt-4">
+                <input type="file" name="fil" id="file" placeholder="Enter Email Address Here.." class="form-control"
+                  style="padding: 13px;" accept="application/msword,application/pdf" required>
+                <span>*Upload Resume(PDF and docs type only)</span>
+
+              </div>
+
+
+
+
+
+              <button type="submit" name="submit" value="Submit" class="btn btn-lg mt-4 text-white w-100 submit-btn">
+                Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</section>

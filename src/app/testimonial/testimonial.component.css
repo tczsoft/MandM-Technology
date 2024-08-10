@@ -1,0 +1,33 @@
+.overlay {
+
+    padding-top: 40px;
+    padding-bottom:40px;
+    background-size: cover;
+  }
+
+
+
+ .owl-item .card .card-body {
+  display: flex !important;
+  flex-direction: column !important;
+  height: auto !important;
+}
+
+.overlay h2{
+
+    color: var(--white) !important;
+}
+.overlay .para{
+    font-size: 16px;
+    color: var(--fontcolor);
+}
+.overlay h3{
+  font-size: 22px;
+    font-weight: 700;
+    color: var(--logotopcolor);
+}
+
+.overlay h6{
+    font-weight: 700;
+    color: var(--black);
+}
