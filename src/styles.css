@@ -1,0 +1,74 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --font-family: "Nunito Sans",Arial,sans-serif;
+    --black:black;
+    --white:white;
+    --homeblue:#1b2f45;
+    --lightblue:#f0f9fd;
+    --midblue:#d1ebf9;
+    --darkblue:#1b9ce3;
+    --logotopcolor:#003963;
+    --logobottomcolor:#00a2e2;
+    --cementcolor:#184056;
+    --lightcementcolor:#d8d8d8;
+    --orange:#ff9119;
+    --heading2:34px;
+    --midwhite:#fafafa;
+   --colorlip:#233e62;
+   --colorlipicon:#1e9de3;
+   --fontcolor:#808080;
+   --findjobs:#2d2d2d;
+   --findjobssubcolor:#505050;
+   --findjobscolor:#f3f2f1;
+   --content-color: rgb(128, 128, 128);
+   --content-size: 16px;
+   --content-weight: 400;
+   --content-height:28.8px;
+   --subtitle-color: rgb(35, 62, 98);
+   --subtitle-size: 34px;
+   --subtitle-weight: 700;
+   --subtitle-height:51px;
+
+   --title-color: rgb(35, 62, 98);
+   --title-size: 60px;
+   --title-weight: 900;
+   --title-height:72px;
+
+
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  body{
+    overflow-x: hidden !important;
+    font-family:  "Nunito Sans", Arial, sans-serif !important;
+  }
+
+
+  .hero, .carousel, .aboutus, .services, .joinus, .leader, .corevalues, .quote, .features{
+    overflow-x: hidden !important;
+  }
+
+  p{
+    font-size: var(--content-size) !important;
+    color: var(--content-color) !important;
+    font-weight: var(--content-weight) !important;
+    line-height: var(--content-height) !important;
+  }
+
+  ol li{
+    font-size: var(--content-size) !important;
+    color: var(--content-color) !important;
+    font-weight: var(--content-weight) !important;
+    line-height: var(--content-height) !important;
+  }
+
+  h2{
+    font-size: var(--subtitle-size) !important;
+    color: var(--subtitle-color) !important;
+    font-weight: var(--subtitle-weight) !important;
+    line-height: var(--subtitle-height) !important;
+  }
+

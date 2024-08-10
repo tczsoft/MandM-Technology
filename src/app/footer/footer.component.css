@@ -1,0 +1,135 @@
+.footer p{
+    font-size: 15px;
+  }
+  .footer{
+    background-color: var(--logotopcolor);
+    overflow-x: hidden !important;
+  }
+
+
+
+  .footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid #FFFFFF;
+    transition: .3s;
+  }
+  .footer h4{
+    font-size: 17px;
+  }
+
+  .footer li a{
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+  .footer li {
+    list-style-type: none;
+  }
+
+  .footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+  }
+
+  .footer .btn.btn-link::before {
+    position: relative;
+
+
+    font-weight: 900;
+    margin-right: 10px;
+  }
+
+  .social:hover{
+    background-color: var(--logotopcolor);
+
+  }
+
+  .footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+  }
+
+  .footer .copyright a {
+    color: var(--light);
+  }
+
+a{
+  text-decoration: none;
+}
+
+.footer .btn.btn-social {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light);
+  border: 1px solid #FFFFFF;
+  border-radius: 35px;
+  transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+  color: var(--primary);
+}
+
+.footer .btn.btn-link {
+  display: block;
+  margin-bottom: 5px;
+  padding: 0;
+  text-align: left;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: capitalize;
+  transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+  position: relative;
+
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.footer .copyright {
+  padding: 25px 0;
+  font-size: 15px;
+  border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+  color: var(--light);
+}
+
+.footer .footer-menu a {
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid rgba(255, 255, 255, .3);
+}
+
+.footer .footer-menu a:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
+
+.footer .btn{
+  background-color: var(--logobottomcolor);
+  color: white;
+}
